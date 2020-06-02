@@ -7,31 +7,80 @@
 	<link rel="icon" href="resource/icons/main_icon.png">
 </head>
 <body>
-	<div id="first_background_image" class="images" onscroll="scrollPage()"></div>
+	<div id="clouded"></div>
+	<div id="first_background_image" class="hide_elements images" onscroll="scrollPage()"></div>
 	<div id="header">
-		<button id="btHomepage" class="header_buttons left_header_button">
-			ETQ
-		</button>
-		<button id="btMen" class="header_buttons left_header_button">
-			MEN
-		</button>
-		<button id="btWomen" class="header_buttons left_header_button">
-			WOMEN
-		</button>
-		<button id="btCollection" class="header_buttons left_header_button">
-			Permanent collection
-		</button>
-		<button id="btMyAcc" class="header_buttons right_header_button">
-			My Account
-		</button>
-		<button id="btSearch" class="header_buttons right_header_button">
-			Search
-		</button>
+		<div id="header_button_container">
+			<button id="btHomepage" class="header_buttons left_header_button">ETQ</button>
+			<button id="btMen" class="header_buttons left_header_button">MEN</button>
+			<button id="btWomen" class="header_buttons left_header_button">WOMEN</button>
+			<button id="btCollection" class="header_buttons left_header_button">Permanent collection</button>
+			<button id="btMyAcc" class="header_buttons right_header_button">My Account</button>
+			<button id="btSearch" class="header_buttons right_header_button">Search</button>
+		</div>
+
+		<div id="first_header_extend" class="header_extend">
+			<div id="first_header_extend_block1" class="first_header_extend_blocks">
+				<div id="first_header_extend_block1_image" class="images first_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Shop men</div>
+			</div>
+			<div id="first_header_extend_block2" class="first_header_extend_blocks">
+				<div id="first_header_extend_block2_image" class="images first_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">NewL Spring summner 2020</div>
+			</div>
+			<div id="first_header_extend_block3" class="first_header_extend_blocks">
+				<div id="first_header_extend_block3_image" class="images first_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Shoe care</div>
+			</div>
+			<div id="first_header_extend_block4" class="first_header_extend_blocks">
+				<div id="first_header_extend_block4_image" class="images first_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">36 Shades</div>
+			</div>
+		</div>
+
+		<div id="second_header_extend" class="header_extend">
+			<div id="second_header_extend_block1" class="second_header_extend_blocks">
+				<div id="second_header_extend_block1_image" class="images second_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Shop all womens</div>
+			</div>
+			<div id="second_header_extend_block2" class="second_header_extend_blocks">
+				<div id="second_header_extend_block2_image" class="images second_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Permanent collection</div>
+			</div>
+			<div id="second_header_extend_block3" class="second_header_extend_blocks">
+				<div id="second_header_extend_block3_image" class="images second_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Best seller: LT 01 White</div>
+			</div>
+			<div id="second_header_extend_block4" class="second_header_extend_blocks">
+				<div id="second_header_extend_block4_image" class="images second_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Best seller: Lace-up boot</div>
+			</div>
+		</div>
+
+		<div id="third_header_extend" class="header_extend">
+			<div id="third_header_extend_block1" class="third_header_extend_blocks">
+				<div id="third_header_extend_block1_image" class="images third_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Mens Essence Series</div>
+			</div>
+			<div id="third_header_extend_block2" class="third_header_extend_blocks">
+				<div id="third_header_extend_block2_image" class="images third_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Womens Essence Series</div>
+			</div>
+			<div id="third_header_extend_block3" class="third_header_extend_blocks">
+				<div id="third_header_extend_block3_image" class="images third_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">LT 01 White</div>
+			</div>
+			<div id="third_header_extend_block4" class="third_header_extend_blocks">
+				<div id="third_header_extend_block4_image" class="images third_header_extend_block1_images"></div>
+				<div class="default_text extend_header_texts">Shoe care</div>
+			</div>
+		</div>
 	</div>
 
 	<div id="main_content">
-		<p id="first_main_content">10 years of LT 01</p>
-		<p id="second_main_content">Same but better</p>
+		<div id="first_main_content" class="main_contents">10 years of LT 01</div>
+		<br>
+		<div id="second_main_content" class="main_contents">Same but better</div>
 	</div>
 	
 	<div id="part2">
@@ -135,7 +184,7 @@
 		</div>
 	</div>
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="etq.js"></script>
 </body>
 </html>
